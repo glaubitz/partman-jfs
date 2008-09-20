@@ -3,42 +3,39 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_da.po to
-# Danish messages for debian-installer.
-# This file is distributed under the same license as debian-installer.
-# Henrik Christian Grove <debian@3001.dk>, 2008.
-# Jesper Dahl Nyerup <debian@jespernyerup.dk>, 2008.
-# Jacob Sparre Andersen <sparre@nbi.dk>, 2008.
-# Claus Hindsgaul <claus.hindsgaul@gmail.com>, 2004-2007.
-# Reviewed 2007 by Niels Rasmussen
+# Serbian/Cyrillic translation of cp6Linux.
+# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cp6Linux package.
+# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
+# , fuzzy
 #
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
+"Project-Id-Version: cp6Linux 2008\n"
 "Report-Msgid-Bugs-To: debian-boot@lists.debian.org\n"
 "POT-Creation-Date: 2008-03-26 13:16+0000\n"
-"PO-Revision-Date: 2008-09-19 16:35+0200\n"
-"Last-Translator: \n"
-"Language-Team:  <en@li.org>\n"
+"PO-Revision-Date: 2008-09-19 22:27+0100\n"
+"Last-Translator: Veselin Mijušković <panzer@cp6linux.org>\n"
+"Language-Team: Serbian/Cyrillic\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);X-Generator: KBabel 1.11.4\n"
 
 #. Type: text
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:1001
 msgid "Checking the jfs file system in partition #${PARTITION} of ${DEVICE}..."
-msgstr "Tjekker jfs-filsystemet på partition ${PARTITION} på ${DEVICE}..."
+msgstr ""
+"Проверавам  jfs фајл систем на партицији бр. ${PARTITION} на ${DEVICE}..."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "Go back to the menu and correct errors?"
-msgstr "Gå tilbage til menuen for at rette fejlene?"
+msgstr "Да ли желите да се вратите назад у мени и исправите грешке?"
 
 #. Type: boolean
 #. Description
@@ -48,8 +45,8 @@ msgid ""
 "The test of the file system with type jfs in partition #${PARTITION} of "
 "${DEVICE} found uncorrected errors."
 msgstr ""
-"Testen af filsystemet med typen jfs på partition ${PARTITION} på ${DEVICE} "
-"fandt fejl, der ikke var rettet."
+"Тест фајл система типа jfs на партицији бр. ${PARTITION} на${DEVICE} је "
+"пронашао неисправљене грешке."
 
 #. Type: boolean
 #. Description
@@ -59,15 +56,15 @@ msgid ""
 "If you do not go back to the partitioning menu and correct these errors, the "
 "partition will not be used at all."
 msgstr ""
-"Hvis du ikke går tilbage til partitioneringsmenuen og retter disse fejl, vil "
-"partitionen slet ikke blive benyttet."
+"Ако се не вратите назад на мени за партиционисање и не поправите овегрешке, "
+"партиција се уопште неће употребљавати."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:3001
 msgid "Failed to create a file system"
-msgstr "Kunne ikke oprette et filsystem"
+msgstr "Нисам успео да креирам фајл систем"
 
 #. Type: error
 #. Description
@@ -76,15 +73,15 @@ msgstr "Kunne ikke oprette et filsystem"
 msgid ""
 "The jfs file system creation in partition #${PARTITION} of ${DEVICE} failed."
 msgstr ""
-"Oprettelsen af jfs-filsystem på partition ${PARTITION} på ${DEVICE} "
-"mislykkedes."
+"Креирање jfs фајл система на партицији бр. ${PARTITION} на ${DEVICE} није "
+"успело."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "Vil du tilbage til partitioneringsmenuen?"
+msgstr "Да ли желите да се вратите на мени за партиционисање?"
 
 #. Type: boolean
 #. Description
@@ -94,8 +91,8 @@ msgid ""
 "No mount point is assigned for the jfs file system in partition #"
 "${PARTITION} of ${DEVICE}."
 msgstr ""
-"Der er ikke angivet noget monteringspunkt for jfs-filsystemet på partition "
-"${PARTITION} på ${DEVICE}."
+"Ниједна тачка качења није додељена  jfs фајл систему на партицији бр."
+"${PARTITION} на ${DEVICE}."
 
 #. Type: boolean
 #. Description
@@ -105,8 +102,8 @@ msgid ""
 "If you do not go back to the partitioning menu and assign a mount point from "
 "there, this partition will not be used at all."
 msgstr ""
-"Hvis du ikke går tilbage til partitioneringsmenuen og angiver et "
-"monteringspunkt derfra, vil denne partition slet ikke blive benyttet."
+"Ако се не вратите назад на мени за партиционисање и не доделите тачкукачења, "
+"партиција се уопште неће користити."
 
 #. Type: text
 #. Description
@@ -114,7 +111,7 @@ msgstr ""
 #. This is an item in the menu "Partition settings"
 #: ../partman-jfs.templates:5001
 msgid "Mount point:"
-msgstr "Monteringspunkt:"
+msgstr "Тачка качења:"
 
 #. Type: text
 #. Description
@@ -134,14 +131,14 @@ msgstr "jfs"
 #. :sl2:
 #: ../partman-jfs.templates:7001
 msgid "JFS journaling file system"
-msgstr "JFS-journalfilsystem"
+msgstr "JFS журналски фајл систем"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:9001
 msgid "Use unrecommended JFS root file system?"
-msgstr "Brug ikke-anbefalet JFS-rodfilsystem?"
+msgstr "Да ли желите да користите непрепоручени JFS root фајл систем?"
 
 #. Type: boolean
 #. Description
@@ -151,8 +148,8 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
-"Dit rodfilsystem er et JFS-filsystem. Dette kan give problemer med den "
-"opstartsindlæser, der som udgangspunkt bruges af dette installationsprogram."
+"Ваш root фајл систем је типа JFS. Ово може узроковати проблеме са  "
+"подразумеваним бут лоудером."
 
 #. Type: boolean
 #. Description
@@ -162,14 +159,14 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
-"Du bør bruge en lille /boot-partition med et andet filsystem, såsom ext3."
+"Требало би да направите малу /boot партицију другог типа, као што је ext3."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:10001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "Brug ikke-anbefalet JFS-filsystem til /boot?"
+msgstr "Да ли желите да користите непрепоручени JFS /boot фајл систем?"
 
 #. Type: boolean
 #. Description
@@ -179,9 +176,8 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
-"Dit rodfilsystem er et JFS-filsystem som /boot. Dette kan give problemer med "
-"den opstartsindlæser, der som udgangspunkt bruges af dette "
-"installationsprogram."
+"Закачили сте JFS фајл систем као /boot. Ово ће врло вероватно узроковати "
+"проблеме са подразумеваним бут лоудером."
 
 #. Type: boolean
 #. Description
@@ -189,4 +185,6 @@ msgstr ""
 #: ../partman-jfs.templates:10001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr "Du bør benytte et andet filsystem, såsom ext3, til /boot-partitionen."
+msgstr ""
+"Требало би да користите други тип фајл система као што је ext3, за /boot "
+"партицију."
