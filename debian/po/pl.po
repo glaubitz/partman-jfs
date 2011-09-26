@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -49,7 +49,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr ""
+msgstr "jfs"
 
 #. Type: text
 #. Description
@@ -57,14 +57,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr ""
+msgstr "system plików JFS z księgowaniem"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr ""
+msgstr "Użyć JFS jako systemu plików dla /boot? (nie zalecane)"
 
 #. Type: boolean
 #. Description
@@ -74,6 +74,8 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
+"Twój główny system plików to JFS. To zazwyczaj powoduje problemy z programem "
+"rozruchowym, który jest domyślnie używany przez instalator."
 
 #. Type: boolean
 #. Description
@@ -83,13 +85,14 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
+"Powinieneś użyć małej partycji /boot z innym systemem plików, np. ext3."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr ""
+msgstr "Użyć JFS jako systemu plików dla /boot? (nie zalecane)"
 
 #. Type: boolean
 #. Description
@@ -99,6 +102,8 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
+"Twój system plików /boot to JFS. To zazwyczaj powoduje problemy z programem "
+"rozruchowym, który jest domyślnie używany przez instalator."
 
 #. Type: boolean
 #. Description
@@ -106,4 +111,4 @@ msgstr ""
 #: ../partman-jfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
+msgstr "Powinieneś użyć innego systemu plików dla partycji /boot, np. ext3."
