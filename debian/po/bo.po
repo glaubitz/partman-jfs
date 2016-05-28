@@ -3,21 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Tibetan translation for Debian Installer.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: 2012-04-14 22:12+0600\n"
-"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
-"Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
-"Language: bo\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. :sl1:
@@ -28,7 +13,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr "jfs"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -36,14 +21,14 @@ msgstr "jfs"
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr "JFS ཟིན་ཐོའི་ཡིག་ཆ་མ་ལག"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr "འཚམས་སྦྱོར་མ་བྱས་པའི་JFS ཟིན་ཐོའི་ཡིག་ཆ་མ་ལག་སྤྱོད་དགོས་སམ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -53,8 +38,6 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
-"ཁྱོད་ཀྱི་རྩ་བའི་ཡིག་ཆ་མ་ལག་ནི་JFS ཡིག་ཆ་མ་ལག་ཞིག་རེད། འདིས་སྒྲིག་འཇུག་ཆས་ཀྱིས་སྔོན་སྒྲིག་ལ་སྤྱོད་པའི་སྒུལ་"
-"སློང་ཆས་ལ་སྐྱོན་བཟོ་སྲིད"
 
 #. Type: boolean
 #. Description
@@ -63,14 +46,14 @@ msgstr ""
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
-msgstr "ཡིག་ཆ་མ་ལག་གཞན་ཞིག་ལ་ /boot གསོག་སྡེར་ཁག་ཆུང་ཆུང་ཞིག་སྤྱོད་དགོས། དཔེར་ན་ ext3 ལྟ་བུ"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "/boot ཐོག་ཏུ་མཚམས་སྦྱོར་བྱས་མེད་པའི་JFS ཡིག་ཆའི་མ་ལག་བེད་སྤྱོད་དགོས་སམ"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -80,8 +63,6 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
-"ཁྱོད་ཀྱིས་JFS ཡིག་ཆ་མ་ལག་ཞིག་ /boot ལ་བཀར་ཡོད། འདིས་སྒྲིག་འཇུག་ཆས་ཀྱིས་སྔོན་སྒྲིག་ལ་སྤྱོད་པའི་སྒུལ་སློང་"
-"ཆས་ལ་སྐྱོན་བཟོ་སྲིད"
 
 #. Type: boolean
 #. Description
@@ -89,4 +70,4 @@ msgstr ""
 #: ../partman-jfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr "/boot ཡིག་ཆའི་མ་ལག་གཞན་ཞིག་སྤྱོད་དགོས དཔེར་ན ext3"
+msgstr ""
