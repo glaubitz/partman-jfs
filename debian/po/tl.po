@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Tagalog messages for debian-installer.
-# Copyright (C) 2004-2010 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-# Ipinamamahagi ang talaksang ito alinsunod sa lisensiya ng debian-installer.
-# Eric Pareja <xenos@upm.edu.ph>, 2004-200
-# Rick Bahague, Jr. <rbahaguejr@gmail.com>, 2004
-# Reviewed by Roel Cantada on Feb-Mar 2005.
-# Sinuri ni Roel Cantada noong Peb-Mar 2005.
-# This file is maintained by Eric Pareja <eric.pareja@gmail.com>
-# Inaalagaan ang talaksang ito ni Eric Pareja <eric.pareja@gmail.com>
-#
-# ituloy angsulong mga kapatid http://www.upm.edu.ph/~xenos
-#
-#
-# Translations from iso-codes:
-#   Eric Pareja <xenos@upm.edu.ph> 2005,2006
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Tagalog <debian-tl@banwa.upm.edu.ph>\n"
-"Language: tl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. :sl1:
@@ -42,6 +12,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
+#, fuzzy
 msgid "jfs"
 msgstr "jfs"
 
@@ -50,20 +21,23 @@ msgstr "jfs"
 #. File system name
 #. :sl2:
 #: ../partman-jfs.templates:2001
+#, fuzzy
 msgid "JFS journaling file system"
-msgstr "JFS journaling file system"
+msgstr "ReiserFS journaling file system"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
+#, fuzzy
 msgid "Use unrecommended JFS root file system?"
-msgstr "Gamitin ang JFS root file system bagamat hindi ito mungkahi?"
+msgstr "Hindi suportadong uri ng file system na boot"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
+#, fuzzy
 msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
@@ -79,20 +53,20 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
-"Kailangan niyong gumamit ng maliit na /boot partisyon na may ibang file "
-"system, katulad ng ext3."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
+#, fuzzy
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "Gamitin ang hindi hinihikayat na JFS /boot file system?"
+msgstr "Hindi suportadong uri ng file system na boot"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
+#, fuzzy
 msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
@@ -107,5 +81,3 @@ msgstr ""
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
 msgstr ""
-"Kailangan niyong gumamit ng ibang file system, tulad ng ext3, para sa /boot "
-"partisyon."

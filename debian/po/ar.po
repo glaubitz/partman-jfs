@@ -3,36 +3,6 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ar.po to Arabic
-# Arabic messages for debian-installer. Copyright (C) 2003 Software in the Public Interest, Inc. This file is distributed under the same license as debian-installer. Ossama M. Khayat <okhayat@yahoo.com>, 2005.
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-#   Translations from kde-i18n/desktop.po:
-#
-# Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2007, 2008, 2009, 2010.
-#   Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2002.
-#   Free Software Foundation, Inc., 2002, 2004.
-#   Ossama M. Khayat <okhayat@yahoo.com>, 2006, 2008, 2010.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Mohammad Gamal <f2c2001@yahoo.com>, 2001.
-# Ossama Khayat <okhayat@yahoo.com>, 2011, 2012, 2013.
-msgid ""
-msgstr ""
-"Project-Id-Version: ar\n"
-"Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: American English <okhayat@gmail.com>\n"
-"Language: ar\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 && n⇐10 ? "
-"3 : n>=11 && n⇐99 ? 4 : 5\n"
-
 #. Type: text
 #. Description
 #. :sl1:
@@ -43,7 +13,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr "jfs"
+msgstr ""
 
 #. Type: text
 #. Description
@@ -51,14 +21,14 @@ msgstr "jfs"
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr "نظام ملفّات سجلّي JFS"
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr "هل تريد استخدام نظام ملفّاتٍ سجلّي و الغير مستحسن كجذر؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -68,8 +38,6 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
-"نظام ملفّاتك الجذر هو نظام ملفّات JFS. قد يسبب ذلك مشاكل مع محمّل الإقلاع و "
-"المستخدم افتراضيّاً من قبل برنامج التثبيت هذا."
 
 #. Type: boolean
 #. Description
@@ -78,14 +46,14 @@ msgstr ""
 msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
-msgstr "يفترض بك استعمال جزء /boot صغير مع نظام ملفّاتٍ آخر كـext3."
+msgstr ""
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "هل تريد استخدام JFS الغير مستحسن كنظام ملفّات /boot؟"
+msgstr ""
 
 #. Type: boolean
 #. Description
@@ -95,8 +63,6 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
-"لقد قمت بتركيب نظام ملفات JFS كجزء /boot. قد يسبب ذلك مشاكل مع محمل الإقلاع "
-"الذي يستخدمه برنامج التثبيت بشكل افتراضي."
 
 #. Type: boolean
 #. Description
@@ -104,4 +70,4 @@ msgstr ""
 #: ../partman-jfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr "يفترض بك استعمال نظام ملفّاتٍ آخر كـext3 لجزء /boot."
+msgstr ""
