@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -44,7 +44,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr ""
+msgstr "jfs"
 
 #. Type: text
 #. Description
@@ -52,14 +52,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr ""
+msgstr "Файлавая сістэма JFS з падтрымкай журнала"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr ""
+msgstr "Ужываць тып JFS для каранёвай файлавай сістэмы? (Не рэкамендавана)"
 
 #. Type: boolean
 #. Description
@@ -69,6 +69,8 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
+"Вашая каранёвая файлавая сістэма мае тып JFS. Гэта можа выклікаць праблемы з "
+"загрузчыкам, які прадвызначана ўжываецца праграмай усталявання."
 
 #. Type: boolean
 #. Description
@@ -78,13 +80,15 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
+"Вам варта ўжываць маленькі падзел дыска /boot з файлавай сістэмай іншага "
+"тыпу (напрыклад, ext3)."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr ""
+msgstr "Ужываць тып JFS для файлавай сістэмы /boot? (Не рэкамендавана)"
 
 #. Type: boolean
 #. Description
@@ -94,6 +98,8 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
+"У каталогу /boot прымацаваная файлавая сістэма тыпу JFS. У выніку магчымыя "
+"праблемы з загрузчыкам, які прапануе гэтая праграма ўсталявання. "
 
 #. Type: boolean
 #. Description
@@ -101,4 +107,4 @@ msgstr ""
 #: ../partman-jfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
+msgstr "Для падзелу /boot лепш ужыць іншую файлавую сістэму (напрыклад, ext3)."

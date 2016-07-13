@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-08-16 20:20+0200\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -58,7 +58,7 @@ msgstr ""
 #. :sl1:
 #: ../partman-jfs.templates:1001 ../partman-jfs.templates:3001
 msgid "jfs"
-msgstr ""
+msgstr "jfs"
 
 #. Type: text
 #. Description
@@ -66,14 +66,14 @@ msgstr ""
 #. :sl2:
 #: ../partman-jfs.templates:2001
 msgid "JFS journaling file system"
-msgstr ""
+msgstr "JFS-journalfilsystem"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr ""
+msgstr "Brug ikke-anbefalet JFS-rodfilsystem?"
 
 #. Type: boolean
 #. Description
@@ -83,6 +83,8 @@ msgid ""
 "Your root file system is a JFS file system. This can cause problems with the "
 "boot loader used by default by this installer."
 msgstr ""
+"Dit rodfilsystem er et JFS-filsystem. Dette kan give problemer med den "
+"opstartsindlæser, der som udgangspunkt bruges af dette installationsprogram."
 
 #. Type: boolean
 #. Description
@@ -92,13 +94,14 @@ msgid ""
 "You should use a small /boot partition with another file system, such as "
 "ext3."
 msgstr ""
+"Du bør bruge en lille /boot-partition med et andet filsystem, såsom ext3."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr ""
+msgstr "Brug ikke-anbefalet JFS-filsystem til /boot?"
 
 #. Type: boolean
 #. Description
@@ -108,6 +111,9 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
+"Dit rodfilsystem er et JFS-filsystem som /boot. Dette kan give problemer med "
+"den opstartsindlæser, der som udgangspunkt bruges af dette "
+"installationsprogram."
 
 #. Type: boolean
 #. Description
@@ -115,4 +121,4 @@ msgstr ""
 #: ../partman-jfs.templates:5001
 msgid ""
 "You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
+msgstr "Du bør benytte et andet filsystem, såsom ext3, til /boot-partitionen."
