@@ -874,7 +874,3 @@ partman-jfs (1) unstable; urgency=low
     - Cloned from partman-xfs.
 
  -- Colin Watson <cjwatson@debian.org>  Thu, 20 May 2004 20:16:29 +0100
-
-Local Variables:
-coding: utf-8
-End:
