@@ -1,3 +1,11 @@
+partman-jfs (49) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Esperanto (eo.po) by Felipe Castro
+  * Hungarian (hu.po) by Dr. Nagy Elemér Károly
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 03 Dec 2017 16:36:42 +0100
+
 partman-jfs (48) unstable; urgency=medium
 
   [ Updated translations ]
