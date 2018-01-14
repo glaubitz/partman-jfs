@@ -1,3 +1,10 @@
+partman-jfs (51) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 14 Jan 2018 13:00:04 +0100
+
 partman-jfs (50) unstable; urgency=medium
 
   [ Updated translations ]
