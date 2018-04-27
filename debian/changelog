@@ -1,3 +1,9 @@
+partman-jfs (53) UNRELEASED; urgency=medium
+
+  * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:05 +0200
+
 partman-jfs (52) unstable; urgency=medium
 
   [ Updated translations ]
