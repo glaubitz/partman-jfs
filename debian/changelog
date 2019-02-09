@@ -1,8 +1,13 @@
-partman-jfs (55) UNRELEASED; urgency=medium
+partman-jfs (55) unstable; urgency=medium
+  * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Tue, 08 Jan 2019 00:16:49 +0100
+  [ Updated translations ]
+  * Persian (fa.po) by nima sahraneshin
+  * Finnish (fi.po) by Juhani Numminen
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 09 Feb 2019 22:44:06 +0100
 
 partman-jfs (54) unstable; urgency=medium
 
