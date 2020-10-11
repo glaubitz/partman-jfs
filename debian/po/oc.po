@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: 2020-10-04 13:50+0200\n"
+"PO-Revision-Date: 2020-10-11 15:47+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -74,14 +74,14 @@ msgid ""
 "ext3."
 msgstr ""
 "Vos caldriá utilizar una particion pichona /boot amb un sistèma de fichièrs "
-"diferent, per exemple ext3.i"
+"diferent, per exemple ext3."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "Cal utilizar un sistèma de fichièrs JFS per /boot ? Es pas conselhat."
+msgstr "Utilizar un sistèma de fichièrs JFS pas conselhat per /boot ?"
 
 #. Type: boolean
 #. Description
