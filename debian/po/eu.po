@@ -24,10 +24,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: di-sublevel1_eu\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
 "POT-Creation-Date: 2010-02-26 22:59+0000\n"
-"PO-Revision-Date: 2020-10-28 20:33+0100\n"
+"PO-Revision-Date: 2020-11-03 18:23+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -61,7 +61,7 @@ msgstr "JFS egunkaridun fitxategi-sistema"
 #. :sl2:
 #: ../partman-jfs.templates:4001
 msgid "Use unrecommended JFS root file system?"
-msgstr "erabili ez gomendatutako JFS erroko fitxategi-sistema?"
+msgstr "Erabili ez gomendatutako JFS erroko fitxategi-sistema?"
 
 #. Type: boolean
 #. Description
@@ -72,7 +72,7 @@ msgid ""
 "boot loader used by default by this installer."
 msgstr ""
 "Erroko fitxategi-sistema JFS da. Honek lehenetsi moduan instalatzaileak "
-"erabilitako abiarazlearekin arazoak sortu ditzake."
+"erabilitako abiarazlearekin arazoak sor ditzake."
 
 #. Type: boolean
 #. Description
@@ -90,7 +90,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-jfs.templates:5001
 msgid "Use unrecommended JFS /boot file system?"
-msgstr "Gomendatzen ez den JFS motako /boot fitxategi-sistema erabili?"
+msgstr "Gomendatzen ez den JFS fitxategi-sistema erabili /boot-en?"
 
 #. Type: boolean
 #. Description
@@ -100,8 +100,8 @@ msgid ""
 "You have mounted a JFS file system as /boot. This is likely to cause "
 "problems with the boot loader used by default by this installer."
 msgstr ""
-"/boot fitxategi-sistema JFS motakoa da. Honek lehenetsi moduan "
-"instalatzaileak erabilitako abiarazlearekin arazoak sortu ditzake."
+"JFS fitxategi-sistema /boot gisa muntatuta duzu. Honek lehenetsi moduan "
+"instalatzaileak erabilitako abiarazlearekin arazoak sor ditzake."
 
 #. Type: boolean
 #. Description
