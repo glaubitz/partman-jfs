@@ -1,3 +1,16 @@
+partman-jfs (60) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 05 Nov 2020 19:20:55 +0100
+
 partman-jfs (59) unstable; urgency=medium
 
   * Team upload
