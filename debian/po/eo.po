@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
+"POT-Creation-Date: 2022-03-24 08:13+0100\n"
 "PO-Revision-Date: 2017-12-01 00:46+0000\n"
 "Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
 "Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
@@ -51,58 +51,8 @@ msgstr "'jfs'"
 msgid "JFS journaling file system"
 msgstr "Protokoliga dosiersistemo JFS"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid "Use unrecommended JFS root file system?"
-msgstr "Ĉu uzi malrekomenditan radikan dosiersistemon JFS?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"Your root file system is a JFS file system. This can cause problems with the "
-"boot loader used by default by this installer."
-msgstr ""
-"Via radika dosiersistemtipo por la radika diskparto estas JFS. Tio povas "
-"misfunkciigi la ekŝargilon implicite uzatan de tiu ĉi instalilo."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"You should use a small /boot partition with another file system, such as "
-"ext3."
-msgstr ""
-"Vi devus uzi malgrandan diskparton '/boot' kun alia dosiersistemo, kiel "
-"'ext3'."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid "Use unrecommended JFS /boot file system?"
-msgstr "Ĉu uzi la malrekomenditan dosiersistemon JFS /boot?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You have mounted a JFS file system as /boot. This is likely to cause "
-"problems with the boot loader used by default by this installer."
-msgstr ""
-"Vi muntis dosiersistemon JFS kiel /boot. Tio ofte misfunkciigas la "
-"ekŝargilon implicite uzatan de ĉi tiu instalilo."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
-"Vi devus uzi alian desiersistemon, kiel 'ext3', por la diskparto '/boot'."

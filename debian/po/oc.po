@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
+"POT-Creation-Date: 2022-03-24 08:13+0100\n"
 "PO-Revision-Date: 2020-10-11 15:47+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
@@ -44,63 +44,8 @@ msgstr "jfs"
 msgid "JFS journaling file system"
 msgstr "Sistèma de fichièrs jornalizat JFS"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid "Use unrecommended JFS root file system?"
-msgstr ""
-"Es pas conselhat d'emplegar un sistèma de fichièrs JFS per la raiç ? Lo "
-"volètz emplegar çaquelà ?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"Your root file system is a JFS file system. This can cause problems with the "
-"boot loader used by default by this installer."
-msgstr ""
-"Lo vòstre sistèma de fichièrs per la particion raiç es un sistèma JFS. Pòt "
-"èsser la causa de dificultats amb lo programa d'aviada qu'es utilizat per "
-"defaut pel programa d'installacion."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"You should use a small /boot partition with another file system, such as "
-"ext3."
-msgstr ""
-"Vos caldriá utilizar una particion pichona /boot amb un sistèma de fichièrs "
-"diferent, per exemple ext3."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid "Use unrecommended JFS /boot file system?"
-msgstr "Utilizar un sistèma de fichièrs JFS pas conselhat per /boot ?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You have mounted a JFS file system as /boot. This is likely to cause "
-"problems with the boot loader used by default by this installer."
-msgstr ""
-"Lo vòstre sistèma de fichièrs per la particion /boot es un sistèma JFS. "
-"Aquesta causida pòt provocar de dificultats amb lo programa d'aviada qu'es "
-"utilizat per defaut pel programa d'installacion."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
-"Vos caldriá utilizar un sistèma de fichièrs diferent, per exemple ext3, per "
-"la particion /boot."

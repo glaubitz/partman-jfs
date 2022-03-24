@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer wheezy\n"
 "Report-Msgid-Bugs-To: partman-jfs@packages.debian.org\n"
-"POT-Creation-Date: 2010-02-26 22:59+0000\n"
+"POT-Creation-Date: 2022-03-24 08:13+0100\n"
 "PO-Revision-Date: 2012-10-18 18:34+0200\n"
 "Last-Translator: Jordi Mallach <jordi@debian.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
@@ -49,61 +49,8 @@ msgstr "jfs"
 msgid "JFS journaling file system"
 msgstr "Sistema de fitxers transaccional JFS"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid "Use unrecommended JFS root file system?"
-msgstr "Voleu utilitzar el sistema de fitxers arrel JFS no recomanat?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"Your root file system is a JFS file system. This can cause problems with the "
-"boot loader used by default by this installer."
-msgstr ""
-"El sistema de fitxers arrel és un sistema de fitxers JFS. Això pot causar "
-"problemes amb el carregador que utilitza de manera predeterminada aquest "
-"instal·lador."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:4001
-msgid ""
-"You should use a small /boot partition with another file system, such as "
-"ext3."
-msgstr ""
-"Hauríeu d'emprar una partició /boot petita amb un altre sistema de fitxers, "
-"com ara ext3."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid "Use unrecommended JFS /boot file system?"
-msgstr "Voleu utilitzar el sistema de fitxers /boot JFS no recomanat?"
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You have mounted a JFS file system as /boot. This is likely to cause "
-"problems with the boot loader used by default by this installer."
-msgstr ""
-"Heu muntat un sistema de fitxers JFS a /boot. Això pot causar molt "
-"probablement problemes amb el carregador que utilitza de manera "
-"predeterminada aquest instal·lador."
 
-#. Type: boolean
-#. Description
-#. :sl2:
-#: ../partman-jfs.templates:5001
-msgid ""
-"You should use another file system, such as ext3, for the /boot partition."
-msgstr ""
-"Hauríeu d'emprar un altre sistema de fitxers, com ara ext3, per a la "
-"partició /boot."

@@ -15,23 +15,3 @@ Type: text
 # Short file system name (untranslatable in many languages)
 # :sl1:
 _Description: jfs
-
-Template: partman-jfs/jfs_root
-Type: boolean
-Default: false
-# :sl2:
-_Description: Use unrecommended JFS root file system?
- Your root file system is a JFS file system. This can cause problems
- with the boot loader used by default by this installer.
- .
- You should use a small /boot partition with another file system, such as ext3.
-
-Template: partman-jfs/jfs_boot
-Type: boolean
-Default: false
-# :sl2:
-_Description: Use unrecommended JFS /boot file system?
- You have mounted a JFS file system as /boot. This is likely to cause
- problems with the boot loader used by default by this installer.
- .
- You should use another file system, such as ext3, for the /boot partition.
